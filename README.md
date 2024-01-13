@@ -7,9 +7,9 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 
 - [Configurations PowerShell et Neovim](#configurations-powershell-et-neovim)
   - [Prérequis](#prérequis)
-  - [Configurer PowerShell](#configurer-powershell)
-  - [Configurer Neovim](#configurer-neovim)
-  - [Configurer BASH sur Ubuntu](#configurer-bash-sur-ubuntu)
+  - [Configurer PowerShell ](#configurer-powershell-)
+  - [Configurer Neovim ](#configurer-neovim-)
+  - [Configurer BASH sur Ubuntu ](#configurer-bash-sur-ubuntu-)
 
 ## Prérequis
 
@@ -27,7 +27,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
    scoop install neovim gcc
    ```
 
-## Configurer PowerShell
+##  Configurer PowerShell ![PowerShell Badge](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=fff&style=flat)
 
 1. **Configurer votre profil PowerShell**:
    - Ouvrez le fichier de profil avec Neovim :
@@ -65,7 +65,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 6. **Mettre à jour le fichier user_profile.ps1**:
    - Mettez à jour votre fichier `user_profile.ps1` en fonction des modules ajoutés et des thèmes appliqués.
 
-## Configurer Neovim
+## Configurer Neovim ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=flat)
 
 1. **Configurer le fichier init.vim**:
    - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` :
@@ -80,7 +80,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
      :PlugInstall
      ```
 
-## Configurer BASH sur Ubuntu
+## Configurer BASH sur Ubuntu ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
 
 Pour configurer le thème **Oh My Posh** dans le fichier .bashrc sur Ubuntu, suivez les étapes ci-dessous :
 
