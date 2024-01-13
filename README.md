@@ -1,8 +1,8 @@
 # Configurations PowerShell et Neovim
 
+![powershell](https://img.shields.io/badge/PowerShell-5391FE.svg?style=for-the-badge&logo=PowerShell&logoColor=white) ![neovim](https://img.shields.io/badge/Neovim-57A143.svg?style=for-the-badge&logo=Neovim&logoColor=white) ![windows](https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white)
+
 Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les étapes ci-dessous pour installer et utiliser ces configurations.
-
-
 
 - [Configurations PowerShell et Neovim](#configurations-powershell-et-neovim)
   - [Prérequis](#prérequis)
@@ -43,7 +43,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
      ```powershell
      nvim $HOME\.config\powershell\user_profile.ps1
      ```
-   - Consultez mes configurations disponibles dans [ce lien sur GitHub](lien_vers_votre_github) pour voir comment personnaliser votre fichier `user_profile.ps1`.
+   - Consultez ma configuration disponible [sur ce lien GitHub](https://github.com/ThomasHni/configs/blob/main/.config/powershell/user_profile.ps1) pour voir comment personnaliser votre fichier `user_profile.ps1`.
 
 3. **Installer Oh My Posh et posh-git**:
    ```powershell
@@ -52,7 +52,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
    ```
 
 4. **Configurer le thème Oh My Posh**:
-   - Créez un fichier `theme.omp.json` au même niveau que `user_profile.ps1` et configurez votre thème à l'intérieur.
+   - Créez un fichier `theme.omp.json` au même niveau que `user_profile.ps1` et configurez votre thème à l'intérieur. Mon thème [est disponible sur GitHub](https://github.com/ThomasHni/configs/blob/main/.config/powershell/theme.omp.json).
 
 5. **Installer les icônes Terminal**:
    ```powershell
@@ -70,17 +70,16 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
      ```bash
      nvim $HOME\AppData\Local\nvim\init.vim
      ```
-   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options.
+   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options. [Ma configuration](https://github.com/ThomasHni/configs/blob/main/.config/nvim/init.vim).
 
 2. **Installer les plugins**:
-   - Ouvrez Neovim et exécutez la commande suivante pour installer les plugins ecit dans le `init.vim` :
+   - Ouvrez Neovim et exécutez la commande suivante pour installer les plugins énumérés dans le `init.vim` :
      ```vim
      :PlugInstall
      ```
-
 
 ---
 
 Auteur : Hnizdo Thomas
 
-Date : 2 novembre 2023
+Date : 13 Janvier 2023
