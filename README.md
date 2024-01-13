@@ -1,6 +1,7 @@
+
 # Configurations PowerShell et Neovim
 
-![powershell](https://img.shields.io/badge/PowerShell-5391FE.svg?style=for-the-badge&logo=PowerShell&logoColor=white) ![neovim](https://img.shields.io/badge/Neovim-57A143.svg?style=for-the-badge&logo=Neovim&logoColor=white) ![windows](https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white)
+![powershell](https://img.shields.io/badge/PowerShell-5391FE.svg?style=for-the-badge&logo=PowerShell&logoColor=white) ![neovim](https://img.shields.io/badge/Neovim-57A143.svg?style=for-the-badge&logo=Neovim&logoColor=white)  ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=for-the-badge) ![Ubuntu Badge](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=fff&style=for-the-badge)
 
 Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les étapes ci-dessous pour installer et utiliser ces configurations.
 
@@ -8,6 +9,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
   - [Prérequis](#prérequis)
   - [Configurer PowerShell](#configurer-powershell)
   - [Configurer Neovim](#configurer-neovim)
+  - [Configurer BASH sur Ubuntu](#configurer-bash-sur-ubuntu)
 
 ## Prérequis
 
@@ -66,7 +68,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 ## Configurer Neovim
 
 1. **Configurer le fichier init.vim**:
-   - Utilisez Neovim pour créer ou modifier le fichier `init.vim` :
+   - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` :
      ```bash
      nvim $HOME\AppData\Local\nvim\init.vim
      ```
@@ -78,8 +80,49 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
      :PlugInstall
      ```
 
+## Configurer BASH sur Ubuntu
+
+Pour configurer le thème **Oh My Posh** dans le fichier .bashrc sur Ubuntu, suivez les étapes ci-dessous :
+
+1. **Installer Oh My Posh**:
+   Utilisez la commande suivante pour installer Oh My Posh :
+   ```bash
+   $ sudo curl -s https://ohmyposh.dev/install.sh | sudo bash -s
+   ```
+
+2. **Télécharger des polices**:
+   Téléchargez des polices depuis [Nerd Fonts](https://www.nerdfonts.com/font-downloads) pour prendre en charge le thème.
+
+3. **Créer le fichier theme.omp.json**:
+   Au même niveau que votre fichier `.bashrc`, créez un fichier `theme.omp.json` avec la commande suivante :
+   ```bash
+   $ sudo vim theme.omp.json
+   ```
+   Ajoutez le contenu de votre thème à l'intérieur, un exemple [est disponible ici](https://github.com/ThomasHni/configs/blob/main/config/bash/theme.omp.json).
+
+4. **Modifier le fichier .bashrc**:
+   Ouvrez le fichier .bashrc avec la commande suivante :
+   ```bash
+   $ sudo vim .bashrc
+   ```
+   Ajoutez la ligne suivante à la fin du fichier pour initialiser Oh My Posh :
+   ```bash
+   eval "$(oh-my-posh init bash --config $MY_POSH_CONFIG)"
+   ```
+   Et ajoutez cette ligne au début du fichier pour définir la configuration du thème :
+   ```bash
+   export MY_POSH_CONFIG=~/theme.omp.json
+   ```
+
+5. **Source .bashrc**:
+   Rechargez le fichier .bashrc avec la commande suivante :
+   ```bash
+   $ source ~/.bashrc
+   ```
+
 ---
 
-Auteur : Hnizdo Thomas
+Auteur : [Thomas Hnizdo](mailto:thomas.hnizdo@gmail.com)
+
 
 Date : 13 Janvier 2023
