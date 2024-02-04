@@ -67,18 +67,20 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 
 ## Configurer Neovim ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=flat)
 
-1. **Configurer le fichier init.vim**:
+1. **Configurer le fichier init.lua**:
    - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` :
      ```bash
-     nvim $HOME\AppData\Local\nvim\init.vim
+     nvim $HOME\AppData\Local\nvim\init.lua
      ```
+     Sur Linux (Dans `.config/`) :
+      ```
+      $ mkdir nvim
+      ```
+      ```
+      $ vim init.lua
+      ```
    - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options. [Ma configuration](https://github.com/ThomasHni/configs/blob/main/.config/nvim/init.vim).
 
-2. **Installer les plugins**:
-   - Ouvrez Neovim et exécutez la commande suivante pour installer les plugins énumérés dans le `init.vim` :
-     ```vim
-     :PlugInstall
-     ```
 
 ## Configurer BASH sur Ubuntu ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
 
@@ -125,4 +127,4 @@ Pour configurer le thème **Oh My Posh** dans le fichier .bashrc sur Ubuntu, sui
 Auteur : [Thomas Hnizdo](mailto:thomas.hnizdo@gmail.com)
 
 
-Date : 13 Janvier 2023
+Date : 14/02/2023
