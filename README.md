@@ -85,7 +85,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
       $ mkdir lua/plugins/
       ```
 
-   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options(***Chemin des fichier compris***). [Ma configuration](https://github.com/ThomasHni/configs/blob/main/config/nvim/init.lua).
+   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options(***Chemin des fichier compris***). [Ma configuration](https://github.com/ThomasHni/configs/tree/main/config/nvim).
 
 
 ## Configurer BASH sur Ubuntu ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
