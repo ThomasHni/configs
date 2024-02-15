@@ -5,7 +5,7 @@
 
 Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les étapes ci-dessous pour installer et utiliser ces configurations.
 
-- [Configurations PowerShell et Neovim](#configurations-powershell-et-neovim)
+- [Configurations PowerShell/Neovim/Bash](#configurations-powershellneovimbash)
   - [Prérequis](#prérequis)
   - [Configurer PowerShell ](#configurer-powershell-)
   - [Configurer Neovim ](#configurer-neovim-)
@@ -68,18 +68,24 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 ## Configurer Neovim ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=flat)
 
 1. **Configurer le fichier init.lua**:
-   - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` :
+   - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` (*Réorganisation à venir...*):
+
      ```bash
      nvim $HOME\AppData\Local\nvim\init.lua
      ```
+
      Sur Linux (Dans `.config/`) :
-      ```
+
+      ```bash
       $ mkdir nvim
       ```
-      ```
+
+      ```bash
       $ vim init.lua
+      $ mkdir lua/plugins/
       ```
-   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options. [Ma configuration](https://github.com/ThomasHni/configs/blob/main/config/nvim/init.lua).
+
+   - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options(***Chemin des fichier compris***). [Ma configuration](https://github.com/ThomasHni/configs/blob/main/config/nvim/init.lua).
 
 
 ## Configurer BASH sur Ubuntu ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
