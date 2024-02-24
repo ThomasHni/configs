@@ -11,6 +11,9 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
   - [Configurer Neovim ](#configurer-neovim-)
   - [Configurer BASH sur Ubuntu ](#configurer-bash-sur-ubuntu-)
 
+> [!WARNING]  
+> Attention, toute la configuration ici est la mienne. Utilisez-la à vos propres risques. Si vous souhaitez la faire vous-même, je vous invite à consulter les différentes documentations disponibles.
+
 ## Prérequis
 
 1. **Installer Scoop**:
@@ -68,7 +71,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
 ## Configurer Neovim ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=flat)
 
 1. **Configurer le fichier init.lua**:
-   - Utilisez **Neovim** pour créer ou modifier le fichier `init.vim` (*Réorganisation à venir...*):
+   - Utilisez **Neovim** pour créer ou modifier le fichier `init.lua`:
 
      ```bash
      nvim $HOME\AppData\Local\nvim\init.lua
@@ -127,7 +130,19 @@ Pour configurer le thème **Oh My Posh** dans le fichier .bashrc sur Ubuntu, sui
    ```bash
    $ source ~/.bashrc
    ```
+---
+### Ressources : 
 
+- [Scoop](https://scoop.sh/)
+- [Git](https://git-scm.com/downloads)
+- [Powershell](https://learn.microsoft.com/fr-fr/powershell/)
+- [Oh My Posh](https://ohmyposh.dev/)
+- [NeoVim](https://neovim.io/doc/)
+
+#### Autres ressources :
+
+- [Config Powershell](https://www.youtube.com/watch?v=5-aK2_WwrmM&list=PL6ALMxIL06ldobfkH-1KGjk5xpZg5tqyU&index=1&pp=gAQBiAQB)
+- [Config NeoVim](https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PL6ALMxIL06ldobfkH-1KGjk5xpZg5tqyU&index=2&pp=gAQBiAQB)
 ---
 
 Auteur : [Thomas Hnizdo](mailto:thomas.hnizdo@gmail.com)
