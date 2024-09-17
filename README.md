@@ -89,7 +89,39 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
       ```
 
    - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options(***Chemin des fichier compris***). [Ma configuration](https://github.com/ThomasHni/configs/tree/main/config/nvim).
+<details>
+<summary>Github Copilot dans Nvim</summary>
 
+Pour installer GitHub Copilot sur Neovim, suivez ces étapes :
+
+1. **Clonez le dépôt GitHub Copilot** dans le répertoire approprié selon votre système d'exploitation :
+
+   - **Windows (PowerShell)** :
+     ```powershell
+     git clone https://github.com/github/copilot.vim.git `
+       $HOME/AppData/Local/nvim/pack/github/start/copilot.vim
+     ```
+
+   - **Linux/macOS** :
+     ```bash
+     git clone https://github.com/github/copilot.vim.git \
+       ~/.config/nvim/pack/github/start/copilot.vim
+     ```
+
+2. **Configurez Neovim** pour utiliser GitHub Copilot en modifiant votre fichier `plugin.lua` pour inclure le plugin .
+
+3. **Redémarrez Neovim** et exécutez la commande suivante pour finaliser la configuration :
+   ```vim
+   :Copilot setup
+   ```
+4. Pour Avoir de l'aide :
+   ```vim
+   :Copilot help
+   ```
+
+> [!WARNING]
+> Ceci concerne MA configuration actuelle. Une mauvaise configuration peut entraîner des erreurs ou empêcher le bon fonctionnement de GitHub Copilot. Consultez la [documentation officielle](https://github.com/features/copilot) pour plus de détails et de l'aide.
+</details>
 
 ## Configurer BASH sur Ubuntu ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
 
