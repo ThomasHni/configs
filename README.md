@@ -89,7 +89,7 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
       ```
 
    - Consultez votre configuration actuelle pour ajouter vos plugins et personnaliser les options(***Chemin des fichier compris***). [Ma configuration](https://github.com/ThomasHni/configs/tree/main/config/nvim).
- ### <details>
+<details>
 <summary>Github Copilot dans Nvim</summary>
 
 Pour installer GitHub Copilot sur Neovim, suivez ces étapes :
