@@ -41,6 +41,10 @@ Ce dépôt contient mes configurations pour PowerShell et Neovim. Suivez les ét
      ```powershell
      $env:USERPROFILE\.config\powershell\user_profile.ps1
      ```
+> [!WARNING]
+> Ce tutoriel est prévu pour **PowerShell 7 et plus**.  
+> Si tu l’utilises sur **Windows PowerShell** (ancien), il peut y avoir **quelques différences** et petits changements à effectuer.
+
 
 2. **Configurer votre fichier user_profile.ps1**:
    - Dans votre dossier personnel, créez un dossier `.config` s'il n'existe pas, puis un dossier `powershell` à l'intérieur.
